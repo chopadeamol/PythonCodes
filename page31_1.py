@@ -1,0 +1,8 @@
+reply = input("Enter x and y, separated by spaces:")
+pieces = reply.split()
+x = float(pieces[0])
+y = float(pieces[1])
+print(pieces)
+print(x)
+print(y)
+print(x, y)
